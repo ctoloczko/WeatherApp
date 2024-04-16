@@ -1,0 +1,16 @@
+.weather-app {
+  background: #ddebf7;
+  max-width: 600px;
+  margin: 40px auto 0;
+  padding: 30px;
+  border-radius: 15px;
+  border-color: #005bea;
+  box-shadow: 10px 7px 16px rgba(118, 113, 118, 0.4);
+}
+
+body {
+  background: linear-gradient(to top, #accbee 0%, #e7f0fd 100%);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+}
