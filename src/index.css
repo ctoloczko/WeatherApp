@@ -1,11 +1,15 @@
 .weather-app {
-  background: #ddebf7;
+  background: #e7eaf6;
   max-width: 600px;
   margin: 40px auto 0;
   padding: 30px;
   border-radius: 15px;
   border-color: #005bea;
   box-shadow: 10px 7px 16px rgba(118, 113, 118, 0.4);
+
+  font-family: "Nanum Gothic", sans-serif;
+  font-weight: 400;
+  font-style: normal;
 }
 
 body {
@@ -13,4 +17,36 @@ body {
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-size: cover;
+}
+
+.search-button {
+  font-family: "Nanum Gothic", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  size: 5px;
+  border-radius: 7px;
+  border: none;
+  background-color: #3063b5;
+  color: #e7eaf6;
+  padding: 0 25px;
+}
+
+.search-form {
+  justify-content: space-between;
+  display: flex;
+  margin: 10px 0;
+}
+.search-input-bar {
+  background-color: #c5daf4;
+  width: 100%;
+  height: 35px;
+
+  font-family: "Nanum Gothic", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+
+  border-radius: 7px;
+  border: none;
+  padding-left: 5px;
+  margin-right: 5px;
 }
