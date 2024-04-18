@@ -23,6 +23,7 @@ body {
   display: flex;
   margin: 10px 0;
 }
+
 .search-input-bar {
   background-color: #c5daf4;
   width: 100%;
@@ -54,6 +55,7 @@ body {
 .weather-app-data {
   display: flex;
   justify-content: space-between;
+  margin-left: 15px;
 }
 
 .weather-app-city {
@@ -67,6 +69,7 @@ body {
   font-size: 14px;
   line-height: 23px;
 }
+
 .current-temperature-container {
   font-size: 40px;
   margin-top: 40px;
@@ -79,6 +82,7 @@ body {
   color: rgb(176, 1, 39);
   font-weight: bold;
 }
+
 .weather-app-icon {
   font-size: 40px;
   margin-top: 21px;
@@ -97,6 +101,6 @@ body {
 footer {
   font-size: 11px;
   color: rgba(117, 155, 200, 0.7);
-  text-align: left;
+  text-align: center;
   padding-top: 30px;
 }
