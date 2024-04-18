@@ -6,12 +6,11 @@
     <title>Weather Search</title>
     <link rel="stylesheet" href="src/index.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Nanum+Gothic&display=swap" rel="stylesheet">  </head>
-  <body>
-    <div class="weather-app">
+<link href="https://fonts.googleapis.com/css2?family=Arimo:ital,wght@0,400..700;1,400..700&family=Comfortaa:wght@300..700&family=Nanum+Gothic:wght@400;700;800&family=Roboto+Mono:ital,wght@0,100..700;1,100..700&display=swap" rel="stylesheet">
+
+<div class="weather-app">
     <header class="search-form">
       <input class="search-input-bar" type="search" placeholder="Enter a city" required/>
       <input class="search-button" type="submit" value="Search" />
@@ -19,13 +18,15 @@
      <main>
      <div class="weather-app-data">
         <div> 
-        <h1>Stockholm</h1>
-      <p>
+        <h1 class="weather-app-city">Stockholm</h1>
+      <p class="weather-app-details">
         Tuesday 21:39, broken clouds
         <br />
-        Humidity: 68%, Wind: 7.2km/h </div> </p>  
+        Humidity: <span id="weather-app-humidity">68%</span>, Wind: <span id="weather-app-wind">7.2km/h</span> </div> </p>  
         
-        <div id="current-temperature"> 🌦️ 10 &deg;C </div> 
+        <div class="current-temperature-container"> 
+            <div class="weather-app-icon">🌦️ </div><div class="weather-app-value"> 10</div><div class="weather-app-unit">&deg;C</div> 
+        </div> 
         
 
       </div>
