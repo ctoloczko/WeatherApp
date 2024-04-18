@@ -60,6 +60,7 @@ body {
 }
 
 .weather-app-data {
+  margin-top: 30px;
   display: flex;
   justify-content: space-between;
   margin-left: 15px;
@@ -68,7 +69,7 @@ body {
 .weather-app-city {
   font-size: 43px;
   color: rgb(57, 61, 74);
-  font-weight: 400;
+  font-weight: 500;
 }
 
 .weather-app-details {
@@ -78,7 +79,6 @@ body {
 }
 
 .current-temperature-container {
-  font-size: 40px;
   margin-top: 40px;
   color: rgb(57, 61, 74);
   display: flex;
