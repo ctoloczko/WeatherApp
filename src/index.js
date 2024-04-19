@@ -1,10 +1,20 @@
 function updateWeather(response) {
   let temperatureElement = document.querySelector("#current-temperature-value");
   let temperature = response.data.temperature.current;
-
   let cityElement = document.querySelector("#city");
+  let descriptionElement = document.querySelector(
+    "#weather-current-description"
+  );
+  let humidityElement = document.querySelector("#weather-app-humidity");
+  let windElement = document.querySelector("#weather-app-wind");
+  let iconElement = document.querySelector("#weather-app-icon");
+
   cityElement.innerHTML = response.data.city;
   temperatureElement.innerHTML = Math.round(temperature);
+  descriptionElement.innerHTML = response.data.condition.description;
+  humidityElement.innerHTML = Math.round(response.data.temperature.humidity);
+  windElement.innerHTML = response.data.wind.speed;
+  iconElement.innerHTML = console.log(response.data);
 }
 
 function searchCity(city) {
@@ -21,3 +31,5 @@ function handleSearchSubmit(event) {
 
 let searchFormElement = document.querySelector("#search-form");
 searchFormElement.addEventListener("submit", handleSearchSubmit);
+
+searchCity("Stockholm");

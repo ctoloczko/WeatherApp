@@ -84,8 +84,8 @@ body {
   display: flex;
 }
 
-#weather-app-humidity,
-#weather-app-wind {
+.weather-app-humidity,
+.weather-app-wind {
   color: rgb(176, 1, 39);
   font-weight: bold;
 }
