@@ -89,7 +89,7 @@ body {
 
 .weather-app-humidity,
 .weather-app-wind {
-  color: rgb(176, 1, 39);
+  color: rgb(181, 16, 52);
   font-weight: bold;
 }
 
@@ -111,9 +111,43 @@ footer {
   font-size: 11px;
   color: rgba(117, 155, 200, 0.7);
   text-align: center;
-  padding-top: 30px;
+  padding-top: 45px;
 }
 
 footer a {
   color: rgba(117, 155, 200);
+}
+
+.weather-forecast {
+  display: flex;
+  justify-content: space-between;
+  text-align: center;
+  margin-top: 35px;
+}
+.weather-forecast-day {
+  font-size: 17px;
+  color: rgb(57, 61, 74, 0.7);
+}
+
+.weather-forecast-temperature {
+  font-size: 13px;
+}
+
+.weather-forecast-temperature-max {
+  color: rgb(181, 16, 52);
+}
+
+.weather-forecast-temperature-min {
+  color: rgb(181, 16, 52, 0.6);
+}
+
+.col-2 {
+  padding: 10px;
+  transition: all 400ms ease-in-out;
+}
+
+.col-2:hover {
+  background-color: #ddeafa;
+  border: rgb(18, 66, 121, 0.4);
+  border-radius: 9px;
 }
