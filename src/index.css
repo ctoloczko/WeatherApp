@@ -22,10 +22,13 @@ body {
   padding: 0 25px;
   border: 1px solid rgba(117, 155, 200, 0.3);
   box-shadow: 5px 5px 9px rgba(117, 155, 200, 0.6);
+  transition: ease-in-out;
 }
 
 .search-button:hover {
   cursor: pointer;
+  color: #9ba3be;
+  background-color: #475c75;
 }
 
 .search-input-bar {
@@ -109,4 +112,8 @@ footer {
   color: rgba(117, 155, 200, 0.7);
   text-align: center;
   padding-top: 30px;
+}
+
+footer a {
+  color: rgba(117, 155, 200);
 }
