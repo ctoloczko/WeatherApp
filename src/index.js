@@ -7,7 +7,6 @@ function updateWeather(response) {
   );
   let humidityElement = document.querySelector("#weather-app-humidity");
   let windElement = document.querySelector("#weather-app-wind");
-  let iconElement = document.querySelector("#weather-app-icon");
 
   cityElement.innerHTML = response.data.city;
   temperatureElement.innerHTML = Math.round(temperature);
