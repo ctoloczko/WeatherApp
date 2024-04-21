@@ -157,3 +157,9 @@ footer {
 footer a {
   color: rgba(117, 155, 200);
 }
+
+html,
+body {
+  max-width: 100% !important;
+  overflow-x: hidden !important;
+}
