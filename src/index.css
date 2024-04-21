@@ -107,17 +107,6 @@ body {
   margin-top: 13px;
 }
 
-footer {
-  font-size: 11px;
-  color: rgba(117, 155, 200, 0.7);
-  text-align: center;
-  padding-top: 45px;
-}
-
-footer a {
-  color: rgba(117, 155, 200);
-}
-
 .weather-forecast {
   display: flex;
   justify-content: space-between;
@@ -141,6 +130,10 @@ footer a {
   color: rgb(181, 16, 52, 0.6);
 }
 
+.weather-forecast-icon {
+  width: 45px;
+}
+
 .col-2 {
   padding: 10px;
   transition: all 400ms ease-in-out;
@@ -150,4 +143,15 @@ footer a {
   background-color: #ddeafa;
   border: rgb(18, 66, 121, 0.4);
   border-radius: 9px;
+}
+
+footer {
+  font-size: 11px;
+  color: rgba(117, 155, 200, 0.7);
+  text-align: center;
+  padding-top: 45px;
+}
+
+footer a {
+  color: rgba(117, 155, 200);
 }
