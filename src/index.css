@@ -22,7 +22,7 @@ body {
   padding: 0 25px;
   border: 1px solid rgba(117, 155, 200, 0.3);
   box-shadow: 5px 5px 9px rgba(117, 155, 200, 0.6);
-  transition: ease-in-out;
+  transition: all 400ms ease-in-out;
 }
 
 .search-button:hover {
@@ -45,8 +45,10 @@ body {
   margin-right: 5px;
   box-shadow: 5px 5px 9px rgba(117, 155, 200, 0.6);
 }
+
 .search-input-bar:focus {
   outline: #124279;
+  background-color: #e0ebfb;
 }
 
 .weather-app {
@@ -94,7 +96,7 @@ body {
 }
 
 .weather-app-icon {
-  font-size: 40px;
+  width: 100%;
 }
 
 .weather-app-value {
@@ -111,7 +113,7 @@ body {
   display: flex;
   justify-content: space-between;
   text-align: center;
-  margin-top: 35px;
+  margin-top: 30px;
 }
 .weather-forecast-day {
   font-size: 17px;
@@ -119,7 +121,7 @@ body {
 }
 
 .weather-forecast-temperature {
-  font-size: 13px;
+  font-size: 15px;
 }
 
 .weather-forecast-temperature-max {
@@ -131,7 +133,7 @@ body {
 }
 
 .weather-forecast-icon {
-  width: 45px;
+  width: 100%;
 }
 
 .col-2 {
